@@ -1,0 +1,5 @@
+{
+  "Action Name": "myaction",
+  "Description": "A short description of the action",
+  "Entry Point": "{{ cookiecutter['Action Name'].lower().replace(' ', '-') }}.py"
+}
